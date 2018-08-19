@@ -32,3 +32,21 @@ Copyright 2005-2015 Automattic, Inc.
 */
 
 defined( 'ABSPATH' ) or die( 'Hey, you can\t access this file, you silly human!' );
+
+class MultisocialPlugin
+{
+  function __construct($string) {
+    echo $string
+  }
+  function method1() {
+
+  }
+  function method2() {
+
+  }
+
+}
+
+if ( class_exists( 'MultisocialPlugin' ) ){
+  $multisocialPlugin = new MultisocialPlugin( 'Multisocial Plugin initialized!' );
+}
